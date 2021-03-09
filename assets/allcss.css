@@ -1,0 +1,145 @@
+.menu
+{
+	
+	list-style-type:none;
+    float:right;
+    font-size:30px;
+	text-align:center;
+	padding-top: 2%;
+	color:black;
+	text-shadow: 2px 2px 2px #808080;
+}
+.bar{
+
+	background-color: hsla(240, 0%, 50%, 0.7) ;
+
+}
+.menu:hover{
+	background-color:white;
+	color:black;
+}
+.aside{
+		width: 325px;
+		height: 470%;
+		background-color:rgba(0,0,0,0.5);
+		text-align: left;
+		float: right;
+		position:absolute;
+		left:78%;
+		top: 130%;
+	}
+img.fb{
+		height: 55px;
+		width: 55px;
+		padding-right: 10px;
+		padding-left: 5px;
+		padding-bottom:5%;
+}
+img.fb2{
+	height: 55px;
+	width: 140px;
+	padding-top: 10px;
+	padding-bottom:5%;
+}
+img.ig{
+		height: 65px;
+		width: 240px;
+}
+body{
+	background-image:url("../image/bg.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+font-family: "微軟正黑體";
+margin-top: -20px;
+margin-left:-12px;
+}
+*{color:white;}
+hr{
+background-color:#008080;
+color:#008080;
+border:3px dashed;
+}
+.tx{
+font-size: 23px;
+line-height:1.5p;
+padding: 15px;
+}
+.tit{
+font-size:30px;
+padding :2%;
+text-shadow: 2px 2px 2px #808080;
+font-weight: bold; 
+background-color: hsla(240, 0%, 50%, 0.6) ;
+border:10px double black;
+border-radius:30px 10px;
+}
+.leftarea{
+width:10%;
+height: 300%;
+position: absolute;
+background-color: grey;
+}
+.rightarea{
+width:10%;
+height: 300%;
+position: absolute;
+background-color: grey;
+left: 90%
+}
+.mainarea{
+position: absolute;
+top: 110%;
+right: 30%;
+}
+.bigimg{
+	width:101%; 
+	height:90%;
+	position: absolute;
+	margin-left:-12px;
+	margin-top: 2%;
+}
+.imgarea{
+float: left;
+}
+.siximg{
+	columns: 2;
+	margin: 30px;
+	width: 400px;
+	height: 300px;
+	border:10px solid 	white;
+	box-shadow: 12px 12px 10px black;
+	border-radius: 10px;
+}
+.siximg:hover{
+	width:450px;
+	height: 350px;
+	opacity:0.8;
+transition: 1s,  1s;}
+.foo{
+background-color:rgba(0,0,0,0.5);
+ padding: 2%;
+text-align: center;
+margin-top: 280%;
+}
+.logo{
+	width: 7%;
+	height: 7%;
+padding: 0;
+}
+.back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+   
+}
+
+.back-to-top:hover {    
+    text-decoration:none;
+    color:#ffffff;
+}
