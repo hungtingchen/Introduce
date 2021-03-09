@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>個人網頁</title>
+	<link rel="stylesheet" type="text/css" href="assets/allcss.css">
+	<style>
+
+		
+	</style>
+	<script src="https://kit.fontawesome.com/373adad402.js" crossorigin="anonymous"></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+	
+</head>
+<body class="body">
+	<header>
+	<div class="bar">
+
+		<ul>
+			<img src="image/logo.png" class="logo">
+			<img src="image/logo2.png" class="logo2">
+			<a href="#aboutme"><li class= "menu">個人資料&nbsp;&nbsp;&nbsp;</li></a>
+			<a href="#goal"><li class= "menu">興趣與目標&nbsp;&nbsp;&nbsp;</li></a>
+			<a href="#future"><li class= "menu">未來期許&nbsp;&nbsp;&nbsp;</li></a>
+			<a href="#life"><li class= "menu">生活紀錄&nbsp;&nbsp;&nbsp;</li></a>
+			<a href="#contact"><li class= "menu">聯絡資訊&nbsp;&nbsp;&nbsp;</li></a>
+		</ul >
+	</div>
+
+	</header>
+	<nav>
+		<img src="image/bigimg.jpg" class="bigimg">
+	</nav>
+	<aside class="aside">
+			<p class="tit" id="contact">聯絡資訊</p>
+			<p class="tx">電話：0989808349</p>
+			<p class="tx">Email：k2000307@gmail.com</p>
+			<p class="tx">地址：桃園市大園區海口里漁港56號</p>
+			<p class="tx">Facebook: 陳泓廷<br></p>
+				<p class="tx">Instagram: @hunterchen_<br></p>
+				<a href="https://www.facebook.com/profile.php?id=100005871963715"><img src="image/fb.png" class="fb"><img src="image/facebook.png" class="fb2"></a>
+				<a href="https://www.instagram.com/_hunterchen/"><img src="image/ig2.png" class="ig"></a>
+		</aside>
+	<section class="mainarea">
+	
+		<div class="aboutme" id="aboutme">
+			<p class="tit">個人資料<hr></p>
+			<img src="image/me.jpg" class="siximg">
+			<p class="tx">系級：資管三乙 10744240</p>
+			<p class="tx">姓名：陳泓廷</p>
+			<p class="tx">性別：男</p>
+			<p class="tx">生日：2000/03/07</p>
+			<p class="tx">學歷背景：竹圍國小 → 竹圍國中 → 中壢高商 → 中原大學</p>
+			<p class="tx">工作經歷：百貨專櫃店員</p>
+		</div>
+		<div class="goal" id="goal">
+			<p class="tit">興趣<hr></p>
+				<p class="tx"><i class="fas fa-compact-disc"></i>&nbsp;做音樂</p>
+				<p class="tx"><i class="fas fa-dumbbell"></i>&nbsp;健身</p>
+				<p class="tx"><i class="fas fa-money-check-alt"></i>&nbsp;投資</p>
+		</div>
+		<div>
+			<p class="tit">目標<hr></p>
+			<p class="tx">達到多益畢業門檻</p>
+			<p class="tx">成為有名氣的音樂人</p>
+			<p class="tx">賺錢</p>
+		</div>
+		<div class="future" id="future">
+			<p class="tit" >未來期許<hr></p>
+			<p class="tx">希望能找到一份好工作並且精進投資技術，讓自己的資產能夠養活自己養活家人，並且持續創作音樂</p>
+		</div>
+		<div>
+			<p class="tit" id="life">生活紀錄<hr></p>
+			<div class="imgarea">
+				<img src="image/1.jpg" class="siximg" >
+				<img src="image/2.jpg" class="siximg">
+			</div>
+			<div class="imgarea">
+				<img src="image/3.jpg" class="siximg" >
+				<img src="image/4.jpg" class="siximg">
+			</div>
+			<div class="imgarea">
+				<img src="image/5.jpg" class="siximg" >
+				<img src="image/6.jpg" class="siximg">
+			</div>
+		</div>
+	
+	</section>
+	<footer><div class="foo"><img src="image/footer.png"></div></footer>
+
+
+	<a href="#" class="back-to-top"><img src="image/up.png" width="100px" height="100px"></a>
+<script>
+jQuery(document).ready(function() {
+var offset = 220;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.back-to-top').fadeIn(duration);
+} else {
+jQuery('.back-to-top').fadeOut(duration);
+}
+});
+
+jQuery('.back-to-top').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+</html> 
